@@ -1,3 +1,4 @@
+import java.net.URL;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
@@ -6,11 +7,10 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
-import java.net.URL;
-
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
-public class ImageSpliter {
+
+public class ImageSplit {
 
     public static void main(String[] args) throws IOException {
         System.setProperty("http.agent", "Chrome");
