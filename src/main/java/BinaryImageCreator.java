@@ -40,9 +40,7 @@ public class BinaryImageCreator {
                 }
             }
         }
-
-
-        File file = new File("MyImage.jpg");
+        File file = new File("testImage.jpg");
         ImageIO.write(bufferedImage, "jpg", file);
 
     }
